@@ -6,24 +6,28 @@
     --second-color-light: #F9B700;
 }
 @font-face {
-  font-family: nova-bold;
+  font-family: nova;
+  font-weight: 700;
   src: url(assets/fonts/nova-bold.ttf);
 }
 @font-face {
-  font-family: nova-book;
+  font-family: nova;
+  font-weight: 300;
   src: url(assets/fonts/nova-book.ttf);
 }
 @font-face {
-  font-family: nova-medium;
+  font-family: nova;
+  font-weight: 400;
   src: url(assets/fonts/nova-medium.ttf);
 }
 @font-face {
-  font-family: nova-semi-bold;
+  font-family: nova;
+  font-weight: 600;
   src: url(assets/fonts/nova-semi-bold.ttf);
 }
 
 body{
-  font-family: nova-book !important;
+  font-family: nova !important;
 }
 
 .text-primary{
