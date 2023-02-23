@@ -1,0 +1,87 @@
+:root{
+    --main-color: #28A9E0;
+    --main-color-light:#2498ca59;
+    --main-color-lighter:#DEF5FF;
+    --second-color: #F8931D;
+    --second-color-light: #F9B700;
+}
+@font-face {
+  font-family: nova-bold;
+  src: url(assets/fonts/nova-bold.ttf);
+}
+@font-face {
+  font-family: nova-book;
+  src: url(assets/fonts/nova-book.ttf);
+}
+@font-face {
+  font-family: nova-medium;
+  src: url(assets/fonts/nova-medium.ttf);
+}
+@font-face {
+  font-family: nova-semi-bold;
+  src: url(assets/fonts/nova-semi-bold.ttf);
+}
+
+body{
+  font-family: nova-book !important;
+}
+
+.text-primary{
+  color: var(--main-color) !important;
+}
+
+.bg-primary{
+  background-color:var(--main-color) !important;
+}
+
+.bg-primary-light{
+  background-color:var(--main-color-light) !important;
+}
+
+.bg-primary-lighter{
+  background-color:var(--main-color-lighter) !important;
+}
+
+.bg-second-gradiunt{
+  background: transparent linear-gradient(180deg, var(--second-color-light) 0%, var(--second-color) 100%) 0% 0% no-repeat padding-box;
+}
+
+/* .bg-primary-dark{
+  background-color:var(--main-color-dark) !important;
+} */
+
+.primary-button{
+  border-radius: 8px 0 8px 8px;
+}
+
+.transit-underline{
+  position: relative;
+}
+
+.transit-underline::before,
+.transit-underline::after{
+  content: "";
+  position: absolute;
+  top: 120%;
+  height: 4px;
+  border-radius: 20px;
+
+}
+
+.transit-underline::before{
+  left: 0;
+  width: 85%;
+  background-color: var(--main-color);
+}
+
+.transit-underline::after{
+  right: 0;
+  width: 10%;
+  background-color: var(--second-color);
+}
+
+.divider{
+  width: 1px;
+  height: 50px;
+  background-color:#CCD8EE;
+}

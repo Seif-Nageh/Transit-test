@@ -1,0 +1,19 @@
+
+.label{
+  position: relative;
+  padding-right: 40px !important;
+}
+.label::after{
+  content:"New";
+  position: absolute;
+  color:white;
+  left: 55%;
+  right: 50%;
+  top: 10%;
+  width: 30px;
+  height: 15px;
+  font-size: 10px;
+  padding-left: 6px;
+  background: transparent linear-gradient(180deg, var(--second-color-light) 0%, var(--second-color) 100%) 0% 0% no-repeat padding-box;
+  border-radius:10px;
+}
